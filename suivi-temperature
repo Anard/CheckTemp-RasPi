@@ -1,0 +1,9 @@
+# To place in /usr/local/bin
+#!/bin/bash
+shopt -s expand_aliases
+source /home/pi/.bash_aliases
+while [ 1 ]; do
+	echo -ne "`temps`\r"
+	sleep 1
+done
+exit 0
