@@ -1,5 +1,5 @@
-# To place in /usr/local/bin
 #!/bin/bash
+# Copy in /usr/local/bin
 shopt -s expand_aliases
 source /home/pi/.bash_aliases
 while [ 1 ]; do
